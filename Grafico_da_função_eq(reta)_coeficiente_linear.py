@@ -18,7 +18,7 @@ plt.scatter(x, y, label='Dados')
 plt.plot(x, m * x + b, color='red', label='Linha de Tendência')
 # Adicionar legenda com os valores
 legenda = "{:.3f}x + {:.3f}  R² = {:.4f}".format(m, b, r_squared)
-plt.text(2750, 0.25, legenda)  # Ajuste as coordenadas (24, 200)   conforme necessário
+plt.text(!,!, legenda)  # Ajuste as coordenadas (24, 200)   conforme necessário
 # Configurações do gráfico
 plt.xlabel()
 plt.ylabel()
